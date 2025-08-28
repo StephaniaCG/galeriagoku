@@ -1,9 +1,94 @@
-div{
-    display: inline-block;
-    align-items: center;
-    margin: 15px;
+h1 {font-family: "Bitcount Prop Double", system-ui;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;}
+    body{
+         padding: 5vh;
+     width: 68vw ;
+    margin: 0;
+     background-image: url(imagenes/FONDO.jpg);
+      background-position: 100% 15%;
+      background-size: 400px;
+      background-attachment: fixed;
+     
 }
+.galeria {
+      display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+    padding: 2px;
+    width:32em ;
+    margin-left: 32em;
+}
+
+
 img{
     width: 200px;
     height: 200px;
+}
+.CARD{
+    background-color: rgba(196, 33, 128, 0.26);
+    border-radius: 10px;
+    text-align: center;
+   
+}
+.CARD1{color: rgb(97, 20, 20); 
+background-color:rgba(196, 33, 128, 0.26);
+background: radial-gradient(ellipse at center,#a00e80, #0b3c92 );
+border-radius: 10px;
+    text-align: center;
+    }
+
+
+.CARD2{color: rgb(179, 26, 115);
+background-color:rgba(196, 33, 128, 0.26);
+ background: linear-gradient(135deg, #d6309f, #330625);
+border-radius: 10px;
+    text-align: center;
+    }
+
+.CARD3{color: rgb(211, 100, 202);
+background-color:rgba(196, 33, 128, 0.26);
+border-radius: 10px;
+    text-align: center;
+   }
+.CARD4{color: rgb(146, 75, 75);
+background-color:rgba(196, 33, 128, 0.26);
+border-radius: 10px;
+    text-align: center;
+     
+ }
+.CARD5{color: rgb(19, 184, 148);
+background-color:rgba(196, 33, 128, 0.26);
+border-radius: 10px;
+    text-align: center;
+    }
+.CARD h1{font-size: 2rem;}
+.CARD1 h1{text-transform:lowercase; letter-spacing: 3px; text-shadow:#c03d8e;}
+.CARD2 h1{font-size: 2rem;}
+.CARD3 h1{font-size: 2rem;}
+.CARD4 h1{font-size: 2rem;}
+.CARD5 h1{font-size: 12m; font-style: italic; font-weight: bolder;}
+.CARD img{ width: 100%;height: auto; max-height: 150px; object-fit: contain; }
+.CARD1 img{ width: 100%;height: auto; max-height: 150px; object-fit: contain; }
+.CARD2 img{ width: 100%;height: auto; max-height: 150px; object-fit: contain; }
+.CARD3 img{ width: 100%;height: auto; max-height: 150px; object-fit: contain; }
+.CARD4 img{ width: 100%;height: auto; max-height: 150px; object-fit: contain; }
+.CARD5 img{ width: 100%;height: auto; max-height: 150px; object-fit: contain; }
+header{
+    padding: 20px;
+
+}
+header img{
+    max-width: 1000px;
+    width: 20em;
+    height: auto;
+    display: block;
+    margin: 0;
+    margin-left: 35em;
 }
